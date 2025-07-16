@@ -18,13 +18,17 @@
 *,
 *::before,
 *::after {
-  margin: 0 !important;
-  padding: 0 !important;
-  box-sizing: border-box !important;
-  border: 0 !important;
+  box-sizing: border-box;
 }
 
-html, body {
+a,
+button {
+  cursor: pointer;
+}
+
+html,
+body {
+  margin: 0;
   height: 100%;
   width: 100%;
   font-family: inherit;
@@ -34,4 +38,3 @@ html, body {
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
 }
-
