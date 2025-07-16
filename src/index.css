@@ -1,0 +1,37 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  height: 100%;
+  width: 100%;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+  border: 0 !important;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
