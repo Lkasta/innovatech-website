@@ -1,5 +1,6 @@
 import { ArrowRight, MessageCircle } from "lucide-react";
 import { Button } from "./ui/button";
+import HeroImage from "public/img/hero-innovatech.webp";
 
 export default function Hero() {
   return (
@@ -43,11 +44,7 @@ export default function Hero() {
           </div>
 
           <div className="pointer-events-none ml-auto">
-            <img
-              className="w-[500px] select-none"
-              src="/public/img/hero-innovatech.webp"
-              alt="img"
-            />
+            <img className="w-[500px] select-none" src={HeroImage} alt="img" />
           </div>
         </div>
       </div>
