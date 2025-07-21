@@ -1,6 +1,7 @@
 import { ArrowRight } from "lucide-react";
 import { Button } from "./ui/button";
 import BrasilBanner from "./BrasilBanner";
+import LogoGray from "/public/img/innova-gray-400.webp";
 
 export default function Experience() {
   return (
@@ -37,8 +38,8 @@ export default function Experience() {
           <div className="mt-8 flex items-center gap-4 rounded-lg border-2 border-gray-300 bg-gray-200 px-6 py-4">
             <img
               className="size-20 select-none"
-              src="/public/img/innova-gray-400.webp"
-              alt="img"
+              src={LogoGray}
+              alt="Innovatech Logo Image"
             />
             <p className="font-medium text-gray-400">
               Nosso compromisso é desenvolver projetos personalizados, realizar

@@ -1,5 +1,6 @@
 import { CircleUserRound } from "lucide-react";
 import { Button } from "./ui/button";
+import BrasilVetor from "/public/img/brasil-sp-highlight.svg";
 
 export default function BrasilBanner() {
   return (
@@ -15,11 +16,7 @@ export default function BrasilBanner() {
             melhores soluções.
           </p>
         </div>
-        <img
-          className="w-[450px] select-none"
-          src="/public/img/brasil-sp-highlight.svg"
-          alt="img"
-        />
+        <img className="w-[450px] select-none" src={BrasilVetor} alt="Brasil vetor focus in São Paulo" />
         <div className="text-main-blue">
           <div className="flex gap-3">
             <h1 className="text-main-blue text-3xl font-bold">São Paulo</h1>
@@ -27,7 +24,7 @@ export default function BrasilBanner() {
               Localização no mapa
             </Button>
           </div>
-          <div className="w-min bg-gray-200 p-2 rounded-lg">
+          <div className="w-min rounded-lg bg-gray-200 p-2">
             <CircleUserRound width={25} height={25} className="" />
             <div className="">
               <h2>Innovatech - Itupeva</h2>
