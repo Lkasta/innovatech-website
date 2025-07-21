@@ -87,8 +87,8 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 pt-8 text-center text-gray-400">
           <p>
-            &copy; 2025 Innovatech Eletrônica e Automação Ltda. Todos os
-            direitos reservados.
+            &copy; 2025 Innovatech Eletrônica e Automação. Todos os direitos
+            reservados.
           </p>
         </div>
       </div>

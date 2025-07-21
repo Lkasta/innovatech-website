@@ -6,7 +6,7 @@ import { Button } from "./ui/button";
 
 export default function BrasilBanner() {
   return (
-    <section className="flex w-full -translate-y-52 items-center justify-center py-20">
+    <section className="flex w-full -translate-y-52 items-center justify-center pt-20">
       <div className="container grid grid-cols-3 items-center rounded-lg bg-white p-10">
         <div className="space-y-4">
           <h1 className="text-3xl font-bold text-gray-800 md:text-4xl">
