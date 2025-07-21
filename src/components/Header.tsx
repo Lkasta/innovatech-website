@@ -20,7 +20,7 @@ export default function Header() {
             <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-green-600 to-green-800">
               <Zap className="h-5 w-5 text-white" />
             </div>
-            <span className="text-xl font-bold text-gray-900">Innovatech</span>
+            <span className="text-xl font-bold text-gray-800">Innovatech</span>
           </div>
 
           <nav className="hidden items-center space-x-8 md:flex">
