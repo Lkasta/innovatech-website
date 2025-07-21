@@ -1,6 +1,6 @@
 import { ArrowRight, MessageCircle } from "lucide-react";
 import { Button } from "./ui/button";
-import HeroImage from "public/img/hero-innovatech.webp";
+import HeroImage from "/public/img/hero-innovatech.webp";
 
 export default function Hero() {
   return (
