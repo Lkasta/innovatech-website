@@ -3,6 +3,7 @@ import BannerServices from "./components/BannerServices";
 import Experience from "./components/Experience";
 import AboutDivision from "./components/AboutDivision";
 import About from "./components/About";
+import Footer from "./components/Footer";
 // import BrasilBanner from "./components/BrasilBanner";
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
       <About />
       <AboutDivision />
       <Experience />
-      {/* <BrasilBanner /> */}
+      <Footer />
     </main>
   );
 }
