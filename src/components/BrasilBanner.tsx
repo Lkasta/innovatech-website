@@ -38,12 +38,12 @@ export default function BrasilBanner() {
             </a>
           </div>
           <div className="flex w-min items-center gap-2 rounded-lg bg-gray-200 p-2">
-            <UserCircle size={40} weight="fill" className="text-gray-600" />
+            <UserCircle size={40} weight="fill" className="text-gray-500" />
             <div className="">
-              <h2 className="font-bold text-nowrap text-gray-600">
+              <h2 className="font-bold text-nowrap text-gray-500">
                 Innovatech - Itupeva
               </h2>
-              <p className="text-xs text-nowrap text-gray-600">
+              <p className="text-xs text-nowrap text-gray-500">
                 (11) 95344-7434 - jsilva@innovatech24.com
               </p>
             </div>
