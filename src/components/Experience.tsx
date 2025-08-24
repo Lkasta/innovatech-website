@@ -42,9 +42,7 @@ export default function Experience() {
               alt="Innovatech Logo Image"
             />
             <p className="font-medium text-gray-400">
-              Nosso compromisso é desenvolver projetos personalizados, realizar
-              manutenções precisas e implementar tecnologias que otimizam
-              processos, reduzem custos e aumentam a produtividade.
+              Mais de 15 anos transformando desafios em soluções inteligentes. Garantimos eficiência, inovação e resultados que fazem a diferença para o seu negócio.
             </p>
           </div>
         </div>
